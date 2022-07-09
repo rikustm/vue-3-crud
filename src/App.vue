@@ -7,7 +7,13 @@
           <router-link to="/tutorials" class="nav-link">Tutorials</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/add" class="nav-link">Add</router-link>
+          <router-link to="/add" class="nav-link">Add Tutorial</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/tasks" class="nav-link">Tasks</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/addtask" class="nav-link">Add Task</router-link>
         </li>
       </div>
     </nav>
@@ -20,6 +26,6 @@
 
 <script>
 export default {
-  name: "app"
+  name: "app",
 };
 </script>
